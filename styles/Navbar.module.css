@@ -1,0 +1,49 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #007BFF, #00A8E8);
+    padding-left: 5px; /* Add padding to left */
+    padding-right: 5px; /* Add padding to right */
+    padding-top: 15px; /* Keep navbar height consistent */
+    padding-bottom: 15px;
+    color: white;
+    font-size: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+}
+
+
+
+  
+  .logo a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navLinks {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .navButton, .logoutButton {
+    background-color: white;
+    color: #007BFF;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .navButton:hover, .logoutButton:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+  
